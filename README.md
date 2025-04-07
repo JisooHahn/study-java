@@ -65,14 +65,9 @@ JDK(Java Development Kit)
 
 ---
 
-> JDK 설치
+> JDK 설치 https://drive.google.com/file/d/1bsLuMXWQ-yg50m4SNToucnhEBMLSg6He/view?usp=drive_link
 
-    https://drive.google.com/file/d/1bsLuMXWQ-yg50m4SNToucnhEBMLSg6He/view?usp=drive_link
-
-> IDE 설치
-
-    - 이클립스
-    	https://drive.google.com/file/d/18qYUbfdkXWrX0hbSnvFOuihh9MXI_k7j/view?usp=drive_link
+> IDE 설치 - 이클립스 https://drive.google.com/file/d/18qYUbfdkXWrX0hbSnvFOuihh9MXI_k7j/view?usp=drive_link
 
 ---
 
