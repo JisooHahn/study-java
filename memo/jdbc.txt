@@ -1,0 +1,18 @@
+JDBC(Java Database Connectivity)
+		Java와 RDB간의 연결을 위한 기술
+
+소프트웨어 디자인 설계 패턴
+
+▶ MVC 패턴
+		M(Model): 테이블에서 조회된 결과 값을 담기 위한 변수들이 선언된 클래스.
+			- 클래스명 뒤에 VO 또는 DTO라는 문자열을 붙여준다.
+			- VO(Value Object): 테이블을 보고 그대로 만든 객체, 단일 테이블 조회
+			- DTO(Data Transfer Object): 화면에 결과를 한 번에 묶어서 전달할 객체, 여러 테이블 조회
+
+		V(View): 사용자에게 보여질 화면을 구성하는 부분
+		C(Controller): JSP 챕터에서 이해할 수 있다.
+				- Controller에 작성된 코드가 길어질 수 밖에 없다.
+				이 때문에 Controller에서 작성한 코드 중 DBMS SQL문 관련 코드를 분리하기로 한다.
+				이렇게 분리한 SQL문 관련코드는 DAO라는 클래스에 분리한다.
+				DAO는 Data Access Object의 축약어이다.
+				- 조회 결과는 보통 VO 또는 DTO에 담겨서 리턴된다.
